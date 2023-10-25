@@ -20,12 +20,13 @@ const register = async (req, res) => {
         console.log('insertUserDatainsertUserData',insertUserData)
         delete insertUserData.password
         const token = jwt.sign({ userId: insertUserData.userId }, 'secret_key');
-        res.status(201).json({ token, user: insertUserData });
+        // res.status(201).json({status:200, token, user: insertUserData });
+        res.status(200).json({status:200,message:'Account Created Successfully.',user: insertUserData});
         // res.status(201).send(insertUserData)
     } catch(error) {
         console.error(error);
         res.status(500).json({ message: 'Internal server error' });
     }
 }
-
+    
 module.exports = {register};
