@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const caretakerSchema = new Schema({
@@ -8,26 +8,45 @@ const caretakerSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        trim: true
     },
     mobile: {
-        type: String,
-        required: true
+        type: String, // Assuming mobile is a string
+        trim: true,
     }
 });
 
+const propertyType = new Schema({
+    homeType: [{
+        value: String,
+        label: String
+    }],
+    livinType: [{
+        value: String,
+        label: String
+    }],
+    shareType: [{
+        value: String,
+        label: String
+    }],
+    priceType: [{
+        value: String,
+        label: String
+    }]
+});
 const propertySchema = new Schema({
+    
     userId: {
-        type: String,
-        require: true
-    },
-    name: {
         type: String,
         required: true
     },
     location: {
         type: String,
         required: true
+    },
+    name:{
+        type:String,
+        required:true
     },
     propertyOwner: {
         name: {
@@ -36,13 +55,18 @@ const propertySchema = new Schema({
         },
         email: {
             type: String,
-            required: true
+            trim: true
         }
     },
     caretaker: {
         type: caretakerSchema,
         required: true
+    },
+    propertyType: {
+        type: propertyType
     }
 });
-const propertyDetails = mongoose.model('PropertyDetails', propertySchema);
-exports.propertyDetails=propertyDetails
+
+
+const propertyDetail = mongoose.model('propertyDetails', propertySchema);
+exports.propertyDetails = propertyDetail

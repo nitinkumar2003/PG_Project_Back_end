@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const questionSchema = new Schema({
     question_id: {
-        type: Number,  
+        type: Number,
         required: true,
         unique: true,
     },
@@ -12,19 +12,19 @@ const questionSchema = new Schema({
         required: true,
         unique: true
     },
-    isAnswer:{
-        type:Boolean,
-        default:true
+    isAnswer: {
+        type: Boolean,
+        default: true
     },
-    isSubQuestion:{
-        type:Boolean,
-        default:false
+    isSubQuestion: {
+        type: Boolean,
+        default: false
     }
 })
 
-const masterAnswerSchema=new Schema({
+const masterAnswerSchema = new Schema({
     answer_id: {
-        type: Number,  
+        type: Number,
         required: true,
         unique: true,
     },
@@ -36,13 +36,32 @@ const masterAnswerSchema=new Schema({
 })
 
 const answerSchema = new Schema({
-    question_id: Number,
-    answer_id: Number,
-    user_id: String
-   });
+    userId: {
+        type: String,
+        required: true,
+    },
+    property_id:{
+        type:String,
+        required:true
+    },
+    quesAns: [
+        {
+            question_id: {
+                type: Number,
+                required: true,
+            },
+            answer_id: {
+                type: Number,
+                required: true,
+            }
+        }]
+});
 
-const Questions=mongoose.model('Question',questionSchema)
+
+const Questions = mongoose.model('Question', questionSchema)
+const questionAnswerSchema = mongoose.model('ansSchema', answerSchema)
 // const Answers=mongoose.model('Answers',answerSchema)
-const masterAnswer=mongoose.model('Answers',masterAnswerSchema)
-exports.Questions=Questions
-exports.masterAnswer=masterAnswer
+const masterAnswer = mongoose.model('Answers', masterAnswerSchema)
+exports.Questions = Questions
+exports.masterAnswer = masterAnswer
+exports.questionAnswerSchema = questionAnswerSchema
