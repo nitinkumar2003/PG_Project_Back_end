@@ -5,7 +5,10 @@ const app = express()
 const cors = require('cors')
 const userRoute = require('./routes/userRoute')
 const otpRoute = require('./routes/otpRoute')
-// const errorHandler=require('./middleware/errorHandling')
+const propertyRoute=require('./routes/propertyRoute')
+const master=require('./routes/masterRoute')
+const questions=require('./routes/questionsRoute')
+const errorHandler=require('./middleware/errorHandling')
 
 app.use(cors())
 app.use(express.json());
@@ -20,6 +23,9 @@ app.use((err, req, res, next) => {
 
 app.use('/user', userRoute)
 app.use('/otp', otpRoute)
+app.use('/property', propertyRoute)
+app.use('/master', master)
+app.use('/questions', questions)
 
 app.get('/', (req, res) => {
     res.json('server start')
