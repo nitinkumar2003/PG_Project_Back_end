@@ -8,6 +8,7 @@ const otpRoute = require('./routes/otpRoute')
 const propertyRoute=require('./routes/propertyRoute')
 const master=require('./routes/masterRoute')
 const questions=require('./routes/questionsRoute')
+const address=require('./routes/addressRoute')
 const errorHandler=require('./middleware/errorHandling')
 
 app.use(cors())
@@ -26,6 +27,7 @@ app.use('/otp', otpRoute)
 app.use('/property', propertyRoute)
 app.use('/master', master)
 app.use('/questions', questions)
+app.use('/address', address)
 
 app.get('/', (req, res) => {
     res.json('server start')

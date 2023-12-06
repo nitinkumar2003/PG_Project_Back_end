@@ -1,5 +1,6 @@
 const { propertyDetails } = require('../modals/basicDetailsModal');
 const { questionAnswerSchema } = require('../modals/questionsModal')
+const { address } = require('../modals/addressModal')
 const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware');
 const propertySaved = async (req, res) => {
   const newProperty = new propertyDetails(req.body);
@@ -13,12 +14,25 @@ const propertySaved = async (req, res) => {
 }
 
 const getPropertyList = async (req, res) => {
-    const data = await propertyDetails.find({});
-    const formattedData = data.map(item => {
-        const {...itemWithoutId } = item.toObject();
-        return itemWithoutId;
+  const propertyData = await propertyDetails.find({});
+  const addressData = await address.find({});
+
+  let formattedData = propertyData.map(item => {
+    const { ...itemWithoutId } = item.toObject();
+    return itemWithoutId;
+  });
+
+  let data = formattedData;
+  if (addressData) {
+    data = formattedData.map((item) => {
+      const findAddress = addressData.find((i) => i.property_id == item._id);
+      return {
+        ...item,
+        "address": findAddress || null
+      };
     });
-    res.status(201).json({ message: 'Data Get successfully', data:formattedData });
+  }
+  res.status(201).json({ message: 'Data Get successfully', data: data });
 }
 const postAns = async (req, res) => {
   const data = await questionAnswerSchema.insertMany(req.body)
@@ -29,5 +43,5 @@ const postAns = async (req, res) => {
 module.exports = {
   basicDetails: tryCatchMiddleWare(propertySaved),
   ServicePostAns: tryCatchMiddleWare(postAns),
-  getPropertyList:tryCatchMiddleWare(getPropertyList)
+  getPropertyList: tryCatchMiddleWare(getPropertyList)
 }
