@@ -3,7 +3,11 @@ const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware')
 const cloudinary = require('cloudinary').v2;
 
 
-
+cloudinary.config({
+    cloud_name: 'dpj8njp9v',
+    api_key: '154211585583963',
+    api_secret: 'lcoWrDyfThKQc6npiExMc0q6rKQ'
+});
 
 const uploadImage = async (req, res) => {
     // console.log('req', req);
