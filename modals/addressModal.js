@@ -30,7 +30,7 @@ const addressSchema = new Schema({
         required: true,
     },
     country:{
-        type:Number,
+        type:String ,
     }
 });
 
