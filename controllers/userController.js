@@ -33,6 +33,7 @@ const login = async (req, res) => {
     if(user.isActive==false) return  res.status(400).json({ status: 400, error: 'Activate your account' });
     if (password !== user.password) return res.status(400).json({ status: 400, error: 'Invalid credentials' });
     const token = jwt.sign({ userId: user.userId }, process.env.JWT_SECRET_KEY_VALUE, { expiresIn: '1h' });
+    
     let newuser = user.toObject()
     delete newuser.password
     res.status(200).json({ status: 200, token, user: newuser });
