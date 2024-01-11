@@ -1,5 +1,6 @@
 const { propertyDetails } = require('../modals/basicDetailsModal');
 const { questionAnswerSchema } = require('../modals/questionsModal')
+const { Image } = require('../modals/imageModal')
 const { address } = require('../modals/addressModal')
 const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware');
 const propertySaved = async (req, res) => {
@@ -16,6 +17,7 @@ const propertySaved = async (req, res) => {
 const getPropertyList = async (req, res) => {
   const propertyData = await propertyDetails.find({});
   const addressData = await address.find({});
+  const imagesData = await Image.find({});
 
   let formattedData = propertyData.map(item => {
     const { ...itemWithoutId } = item.toObject();
@@ -23,15 +25,19 @@ const getPropertyList = async (req, res) => {
   });
 
   let data = formattedData;
-  if (addressData) {
+  if (addressData || imagesData) {
     data = formattedData.map((item) => {
       const findAddress = addressData.find((i) => i.property_id == item._id);
+      const findImage = imagesData.find((i) => i.property_id == item._id);
       return {
         ...item,
-        "address": findAddress || null
+        "address": findAddress || null,
+        "image": findImage || 'Image not found'
       };
     });
+
   }
+
   res.status(201).json({ message: 'Data Get successfully', data: data });
 }
 const postAns = async (req, res) => {
