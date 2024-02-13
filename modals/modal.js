@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const _writeConcern = require('../utilities/utilities')
 
 
 const validateEmail = function (email) {
@@ -34,7 +35,7 @@ const userRegisterSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     }
-})
+}, _writeConcern)
 const userOtpSchema = new mongoose.Schema({
     userId: {
         type: String,
@@ -58,7 +59,7 @@ const userOtpSchema = new mongoose.Schema({
         default: Date.now
     }
 
-});
+},_writeConcern);
 
 const userRegister = mongoose.model("userRegister", userRegisterSchema)
 const userOtp = mongoose.model("userOtp", userOtpSchema)

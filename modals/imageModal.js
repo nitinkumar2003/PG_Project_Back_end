@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const _writeConcern = require('../utilities/utilities')
+
 
 const imageSchema = new mongoose.Schema({
     url: {
@@ -19,7 +21,7 @@ const imageSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-});
+},_writeConcern);
 
 const Image = mongoose.model('Image', imageSchema);
 

@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
+
 const Schema = mongoose.Schema;
+const _writeConcern = require('../utilities/utilities')
 
 const caretakerSchema = new Schema({
     name: {
@@ -14,7 +16,7 @@ const caretakerSchema = new Schema({
         type: String, // Assuming mobile is a string
         trim: true,
     }
-});
+},_writeConcern);
 
 const propertyType = new Schema({
     homeType: [{
@@ -33,7 +35,7 @@ const propertyType = new Schema({
         value: String,
         label: String
     }]
-});
+},_writeConcern);
 const propertySchema = new Schema({
     
     userId: {
@@ -61,7 +63,7 @@ const propertySchema = new Schema({
     propertyType: {
         type: propertyType
     }
-});
+},_writeConcern);
 
 
 const propertyDetail = mongoose.model('propertyDetails', propertySchema);

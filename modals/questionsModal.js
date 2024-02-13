@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
-
+const _writeConcern = require('../utilities/utilities')
 const questionSchema = new Schema({
     question_id: {
         type: Number,
@@ -20,7 +20,7 @@ const questionSchema = new Schema({
         type: Boolean,
         default: false
     }
-})
+},_writeConcern)
 
 const masterAnswerSchema = new Schema({
     answer_id: {
@@ -33,7 +33,7 @@ const masterAnswerSchema = new Schema({
         required: true,
         unique: true
     },
-})
+},_writeConcern)
 
 const answerSchema = new Schema({
     userId: {
@@ -55,7 +55,7 @@ const answerSchema = new Schema({
                 required: true,
             }
         }]
-});
+},_writeConcern);
 
 
 const Questions = mongoose.model('Question', questionSchema)

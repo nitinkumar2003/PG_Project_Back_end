@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const _writeConcern = require('../utilities/utilities')
 const homeSchema = new Schema({
     value: {
         type: Number,  // Change type to Number
@@ -12,7 +13,7 @@ const homeSchema = new Schema({
         required: true,
         unique: true
     }
-});
+},_writeConcern);
 
 const homeType = mongoose.model('homeType', homeSchema);
 const livinType = mongoose.model('livinType', homeSchema);

@@ -2,13 +2,13 @@ const { Image } = require('../modals/imageModal')
 const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware')
 const cloudinary = require('cloudinary').v2;
 
- // cloud_name: 'dpj8njp9v',
-    // api_key: '154211585583963',
-    // api_secret: 'lcoWrDyfThKQc6npiExMc0q6rKQ'
+// cloud_name: 'dpj8njp9v',
+// api_key: '154211585583963',
+// api_secret: 'lcoWrDyfThKQc6npiExMc0q6rKQ'
 cloudinary.config({
-    cloud_name: process.env.cloud_name,
-    api_key: process.env.api_key,
-    api_secret: process.env.api_secret
+    cloud_name: 'dpj8njp9v',
+    api_key: '154211585583963',
+    api_secret: 'lcoWrDyfThKQc6npiExMc0q6rKQ'
 });
 
 const uploadImage = async (req, res) => {

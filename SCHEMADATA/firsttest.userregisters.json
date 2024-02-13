@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "656df21381cd3f6258d0166a"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "name": "Test A",
+  "email": "test@mailinator.com",
+  "password": "Password@123",
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f0c698db3da15a4c04eaa"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Shreya Mam",
+  "email": "shreyamam@mailinator.com",
+  "password": "Password@123",
+  "isActive": true,
+  "__v": 0
+}]

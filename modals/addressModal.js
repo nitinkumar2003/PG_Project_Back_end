@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const _writeConcern = require('../utilities/utilities')
 
 
 const addressSchema = new Schema({
@@ -32,7 +33,7 @@ const addressSchema = new Schema({
     country:{
         type:String ,
     }
-});
+},_writeConcern);
 
 const addressDetails = mongoose.model('address', addressSchema)
 exports.address = addressDetails
