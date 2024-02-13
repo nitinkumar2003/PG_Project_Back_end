@@ -79,7 +79,8 @@ let Constant = {
         }
         res.status(statusCode).json(responseBody)
 
-    }
+    },
+
 }
 
 module.exports = Constant 

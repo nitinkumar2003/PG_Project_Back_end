@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6564bd1ca2cbb93e03e1da24"
+  },
+  "answer_id": 1,
+  "answer_label": "YES",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564bd1ca2cbb93e03e1da25"
+  },
+  "answer_id": 2,
+  "answer_label": "No",
+  "__v": 0
+}]

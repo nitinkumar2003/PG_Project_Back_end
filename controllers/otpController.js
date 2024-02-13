@@ -12,6 +12,7 @@ const create = async (req, res) => {
     if (!user) return res.status(400).json({ status: 400, error: 'No account found with this email address.' });
 
     const otp = Math.floor(1000 + Math.random() * 9000);
+    console.log("otp",otp)
     await sendOTPByEmail(email,otp)
     const newUser = new userOtp({ email, otp })
     const insertOtpData = await newUser.save()

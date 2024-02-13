@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6564b7d0ffd05bae360b270a"
+  },
+  "value": 1,
+  "label": "All",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b7d0ffd05bae360b270b"
+  },
+  "value": 2,
+  "label": "Boys",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b7d0ffd05bae360b270c"
+  },
+  "value": 3,
+  "label": "Girls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b7d0ffd05bae360b270d"
+  },
+  "value": 4,
+  "label": "Co-Living",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b7d0ffd05bae360b270e"
+  },
+  "value": 9999,
+  "label": "Other",
+  "__v": 0
+}]

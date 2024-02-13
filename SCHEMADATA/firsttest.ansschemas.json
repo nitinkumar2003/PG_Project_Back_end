@@ -1,0 +1,358 @@
+[{
+  "_id": {
+    "$oid": "656df3d581cd3f6258d01697"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "property_id": "656df3d481cd3f6258d0168b",
+  "quesAns": [
+    {
+      "question_id": 101,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d01698"
+      }
+    },
+    {
+      "question_id": 102,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d01699"
+      }
+    },
+    {
+      "question_id": 103,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169a"
+      }
+    },
+    {
+      "question_id": 104,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169b"
+      }
+    },
+    {
+      "question_id": 105,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169c"
+      }
+    },
+    {
+      "question_id": 106,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169d"
+      }
+    },
+    {
+      "question_id": 107,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169e"
+      }
+    },
+    {
+      "question_id": 108,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d0169f"
+      }
+    },
+    {
+      "question_id": 109,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d016a0"
+      }
+    },
+    {
+      "question_id": 110,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df3d581cd3f6258d016a1"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df59881cd3f6258d016cf"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "property_id": "656df59881cd3f6258d016c0",
+  "quesAns": [
+    {
+      "question_id": 101,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d0"
+      }
+    },
+    {
+      "question_id": 102,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d1"
+      }
+    },
+    {
+      "question_id": 103,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d2"
+      }
+    },
+    {
+      "question_id": 105,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d3"
+      }
+    },
+    {
+      "question_id": 107,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d4"
+      }
+    },
+    {
+      "question_id": 109,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d5"
+      }
+    },
+    {
+      "question_id": 106,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d6"
+      }
+    },
+    {
+      "question_id": 108,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d7"
+      }
+    },
+    {
+      "question_id": 104,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d8"
+      }
+    },
+    {
+      "question_id": 110,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "656df59881cd3f6258d016d9"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570b1a2fcd25ee92c8c3b02"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "property_id": "6570b1a2fcd25ee92c8c3aef",
+  "quesAns": [
+    {
+      "question_id": 101,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b03"
+      }
+    },
+    {
+      "question_id": 103,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b04"
+      }
+    },
+    {
+      "question_id": 105,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b05"
+      }
+    },
+    {
+      "question_id": 107,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b06"
+      }
+    },
+    {
+      "question_id": 109,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b07"
+      }
+    },
+    {
+      "question_id": 102,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b08"
+      }
+    },
+    {
+      "question_id": 104,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b09"
+      }
+    },
+    {
+      "question_id": 106,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b0a"
+      }
+    },
+    {
+      "question_id": 108,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b0b"
+      }
+    },
+    {
+      "question_id": 110,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6570b1a2fcd25ee92c8c3b0c"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658322da116c712dfb2d37b6"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "property_id": "658322d7116c712dfb2d37a5",
+  "quesAns": [
+    {
+      "question_id": 101,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37b7"
+      }
+    },
+    {
+      "question_id": 103,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37b8"
+      }
+    },
+    {
+      "question_id": 105,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37b9"
+      }
+    },
+    {
+      "question_id": 107,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37ba"
+      }
+    },
+    {
+      "question_id": 109,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37bb"
+      }
+    },
+    {
+      "question_id": 102,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37bc"
+      }
+    },
+    {
+      "question_id": 104,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37bd"
+      }
+    },
+    {
+      "question_id": 106,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37be"
+      }
+    },
+    {
+      "question_id": 108,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37bf"
+      }
+    },
+    {
+      "question_id": 110,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "658322da116c712dfb2d37c0"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6592d6c8ed7421155282ca99"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "property_id": "6592d6c8ed7421155282ca88",
+  "quesAns": [
+    {
+      "question_id": 101,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6592d6c8ed7421155282ca9a"
+      }
+    },
+    {
+      "question_id": 103,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6592d6c8ed7421155282ca9b"
+      }
+    },
+    {
+      "question_id": 105,
+      "answer_id": 1,
+      "_id": {
+        "$oid": "6592d6c8ed7421155282ca9c"
+      }
+    },
+    {
+      "question_id": 107,
+      "answer_id": 2,
+      "_id": {
+        "$oid": "6592d6c8ed7421155282ca9d"
+      }
+    }
+  ],
+  "__v": 0
+}]

@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae6b"
+  },
+  "question_id": 101,
+  "question_label": "Do you have an AC available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae6c"
+  },
+  "question_id": 102,
+  "question_label": "Is Wi-Fi provided?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae6d"
+  },
+  "question_id": 103,
+  "question_label": "Do you offer a washing machine?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae6e"
+  },
+  "question_id": 104,
+  "question_label": "Is there a power backup available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae6f"
+  },
+  "question_id": 105,
+  "question_label": "Is room cleaning provided?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae70"
+  },
+  "question_id": 106,
+  "question_label": "Is the room fully furnished?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae71"
+  },
+  "question_id": 107,
+  "question_label": "Is there a common area available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae72"
+  },
+  "question_id": 108,
+  "question_label": "Is RO Water available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae73"
+  },
+  "question_id": 109,
+  "question_label": "Is there a Refrigerator available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564c0299b218fd18cd1ae74"
+  },
+  "question_id": 110,
+  "question_label": "Is food available?",
+  "isAnswer": true,
+  "isSubQuestion": false,
+  "__v": 0
+}]

@@ -1,4 +1,5 @@
 const models = require('../modals/modal');
+const mongoose=require('mongoose')
 const userRegister = models.userRegister;
 const userOtp = models.userOtp
 const { v4: uuidv4 } = require('uuid');
@@ -6,6 +7,7 @@ const jwt = require('jsonwebtoken');
 const Constant = require('../utilities/Constant');
 const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware');
 const sendOTPByEmail = require('../utilities/sentOtp')
+
 
 
 const register = async (req, res) => {
@@ -16,7 +18,7 @@ const register = async (req, res) => {
         return res.status(400).json({ status: 400, error: 'Username or email already exists' });
     }
 
-    const newUser = new userRegister({ userId, name, email, password });
+    const newUser = new userRegister({_id:new mongoose.Types.ObjectId(), userId, name, email, password }, { writeConcern: { w: "majority" , wtimeout: 5000 } });
     console.log('newUser', newUser);
     const insertUserData = await newUser.save();
     console.log('insertUserDatainsertUserData', insertUserData);

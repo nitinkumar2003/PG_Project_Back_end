@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "656f508f27bf0c180240d055"
+  },
+  "property_id": "656f508f27bf0c180240d051",
+  "addressLineOne": "7Grams Chicken and Cafe, Lake Street, Perth WA, Australia",
+  "city": "Perth",
+  "state": "Western Australia",
+  "lat": -31.9412612,
+  "long": 115.861226,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570b1a2fcd25ee92c8c3b00"
+  },
+  "property_id": "6570b1a2fcd25ee92c8c3aef",
+  "addressLineOne": "Jewar International Airport, Rohi, Uttar Pradesh, India",
+  "city": "Rohi",
+  "state": "Uttar Pradesh",
+  "lat": 28.1739094,
+  "long": 77.6264223,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570b22dfcd25ee92c8c3b72"
+  },
+  "property_id": "6570b22dfcd25ee92c8c3b6e",
+  "addressLineOne": "hhhhh, Audugodi Police Quarters, Adugodi, Bengaluru, Karnataka",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "lat": 12.9388014,
+  "long": 77.61043529999999,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba7e9d132937a914a5d4"
+  },
+  "property_id": "6570ba7d9d132937a914a5d0",
+  "addressLineOne": "KUNAL PG, Kanhai Colony, Kanahi, Gurugram, Haryana, India",
+  "city": "Gurugram",
+  "state": "Haryana",
+  "lat": 28.44897679999999,
+  "long": 77.0769176,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657886066b959438545c1415"
+  },
+  "property_id": "657886066b959438545c1411",
+  "addressLineOne": "Jewar International Airport, Rohi, Uttar Pradesh, India",
+  "city": "Rohi",
+  "state": "Uttar Pradesh",
+  "lat": 28.1739094,
+  "long": 77.6264223,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658322d7116c712dfb2d37b1"
+  },
+  "property_id": "658322d7116c712dfb2d37a5",
+  "addressLineOne": "Neem Karoli Baba Ashram Kainchi Dham, Bhowali Range, Uttarakhand, India",
+  "city": "Bhowali Range",
+  "state": "Uttarakhand",
+  "lat": 29.4225625,
+  "long": 79.5124091,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6583277642508780e43a31b5"
+  },
+  "property_id": "6583277642508780e43a31b1",
+  "addressLineOne": "Ahmedabad Railway Station, Sakar Bazzar, Kalupur, Ahmedabad, Gujarat, India",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "lat": 23.0267731,
+  "long": 72.60108319999999,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658328b0756105ffd2ba27b3"
+  },
+  "property_id": "658328b0756105ffd2ba27af",
+  "addressLineOne": "Ahmedpur Choroli, Uttar Pradesh, India",
+  "city": "Ahmedpur Choroli",
+  "state": "Uttar Pradesh",
+  "lat": 28.1194257,
+  "long": 77.62067689999999,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65832c3cdfd2066a5f7bcd93"
+  },
+  "property_id": "65832c3cdfd2066a5f7bcd8f",
+  "addressLineOne": "Googleplex, Amphitheatre Parkway, Mountain View, CA, USA",
+  "city": "Mountain View",
+  "state": "California",
+  "lat": 37.4220604,
+  "long": -122.0852343,
+  "country": "United States",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6592d6c8ed7421155282ca97"
+  },
+  "property_id": "6592d6c8ed7421155282ca88",
+  "addressLineOne": "Chauroli Village Lake, Ahmedpur Choroli, Uttar Pradesh",
+  "city": "Ahmedpur Choroli",
+  "state": "Uttar Pradesh",
+  "lat": 28.1207019,
+  "long": 77.61691739999999,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c20daca3c6fa7dd301d30"
+  },
+  "property_id": "659c20daca3c6fa7dd301d2c",
+  "addressLineOne": "Gurugram Railway Station Cab pick and drop area, Laxman Vihar Industrial Area, Sector 3A, Gurugram, Haryana, India",
+  "city": "Gurugram",
+  "state": "Haryana",
+  "lat": 28.4885651,
+  "long": 77.0109375,
+  "country": "India",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c210bca3c6fa7dd301d79"
+  },
+  "property_id": "659c210bca3c6fa7dd301d75",
+  "addressLineOne": "NNNNN, Falkenberg, Germany",
+  "city": "Falkenberg",
+  "state": "Bayern",
+  "lat": 49.8494783,
+  "long": 12.1896048,
+  "country": "Germany",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c240eca3c6fa7dd301e2a"
+  },
+  "property_id": "659c240eca3c6fa7dd301e26",
+  "addressLineOne": "New Zealand",
+  "city": "",
+  "state": "",
+  "lat": -40.900557,
+  "long": 174.885971,
+  "country": "New Zealand",
+  "__v": 0
+}]
