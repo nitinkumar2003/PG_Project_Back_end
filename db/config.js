@@ -12,3 +12,12 @@ mongoose.connect(mongoconnectshell + dbName, {
     .catch(error => console.log(error))
     // .then(() => console.log('database successfully connected ', mongoUrl + dbName))
     .then(() => console.log('database successfully connected ', mongoconnectshell))
+
+
+//     mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true, serverSelectionTimeoutMS: 5000 });
+// mongoose.connection.on('error', (err) => {
+//   console.error('MongoDB connection error:', err);
+//   setTimeout(() => {
+//     mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true, serverSelectionTimeoutMS: 5000 });
+//   }, 5000); // Retry after 5 seconds
+// });
