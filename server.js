@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 })
 
 
-var server = app.listen(process.env.DB_PORT, function () {
+var server = app.listen(process.env.DB_PORT,"0.0.0.0", function () {
     var host = server.address().address
     var port = server.address().port
 
