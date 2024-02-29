@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
 
 
 const port=process.env.DB_PORT || 4001
-var server = app.listen(port,"0.0.0.0", function () {
+var server = app.listen(port,"::", function () {
     var host = server.address().address
     var port = server.address().port
 
