@@ -31,6 +31,7 @@ const login = async (req, res) => {
     const { email, password } = req.body
     console.log('emailemail', email, password)
     let user = await userRegister.findOne({ email }, { _id: 0, __v: 0 });
+    console.log('useruseruseruser',user)
     if (!user) return res.status(400).json({ status: 400, error: 'Invalid credentials' });
     if(user.isActive==false) return  res.status(400).json({ status: 400, error: 'Activate your account' });
     if (password !== user.password) return res.status(400).json({ status: 400, error: 'Invalid credentials' });
