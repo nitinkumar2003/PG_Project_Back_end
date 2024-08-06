@@ -12,9 +12,21 @@ const master = require('./routes/masterRoute')
 const questions = require('./routes/questionsRoute')
 const address = require('./routes/addressRoute')
 const image = require('./routes/imageRoute')
-const errorHandler = require('./middleware/errorHandling')
+const errorHandler = require('./middleware/errorHandling');
 
-app.use(cors())
+
+const corsOptions = {
+    // Replace with your domain
+    origin: 'http://localhost:5173/',
+    methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
+  
+    // Enable this if you need to
+    // send cookies or HTTP authentication
+    credentials: true,
+    optionsSuccessStatus: 204
+  };
+
+app.use(cors(corsOptions))
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(fileupload({ useTempFiles: true }))
