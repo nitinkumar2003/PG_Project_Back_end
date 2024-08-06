@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6564b8023edd36a3425f8d7b"
+  },
+  "value": 1,
+  "label": "All",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b8023edd36a3425f8d7c"
+  },
+  "value": 2,
+  "label": "Single",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b8023edd36a3425f8d7d"
+  },
+  "value": 3,
+  "label": "Double Sharing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b8023edd36a3425f8d7e"
+  },
+  "value": 4,
+  "label": "3 Sharing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6564b8023edd36a3425f8d7f"
+  },
+  "value": 9999,
+  "label": "Other",
+  "__v": 0
+}]

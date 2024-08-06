@@ -1,0 +1,1137 @@
+[{
+  "_id": {
+    "$oid": "656df3d481cd3f6258d0168b"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "location": "Kanahi Sector  44  Luminous Tower  Gurugram ",
+  "name": "Kunal PG",
+  "propertyOwner": {
+    "name": "Sunil Yadav",
+    "email": "sunitydv@mailinator.com"
+  },
+  "caretaker": {
+    "name": "Ramesh Kumar",
+    "email": "rameshkumar@mailinator.com",
+    "mobile": "7887877887",
+    "_id": {
+      "$oid": "656df3d481cd3f6258d0168c"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "4",
+        "label": "PG",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d0168e"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "2",
+        "label": "Boys",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d0168f"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Girls",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01690"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01691"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Double Sharing",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01692"
+        }
+      },
+      {
+        "value": "4",
+        "label": "3 Sharing",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01693"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "3",
+        "label": "5000-10000",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01694"
+        }
+      },
+      {
+        "value": "4",
+        "label": "10000-15000",
+        "_id": {
+          "$oid": "656df3d481cd3f6258d01695"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "656df3d481cd3f6258d0168d"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df59881cd3f6258d016c0"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "location": "Sector 45 Ramleela ground ",
+  "name": "Kunal PG Second",
+  "propertyOwner": {
+    "name": "A",
+    "email": "a@mailinator.com"
+  },
+  "caretaker": {
+    "name": "B",
+    "email": "b@mailinator.com",
+    "mobile": "5645789865",
+    "_id": {
+      "$oid": "656df59881cd3f6258d016c1"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "4",
+        "label": "PG",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c3"
+        }
+      },
+      {
+        "value": "2",
+        "label": "1BHK",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c4"
+        }
+      },
+      {
+        "value": "3",
+        "label": "2BHK",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c5"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "2",
+        "label": "Boys",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c6"
+        }
+      },
+      {
+        "value": "4",
+        "label": "Co-Living",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c7"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c8"
+        }
+      },
+      {
+        "value": "4",
+        "label": "3 Sharing",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016c9"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Double Sharing",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016ca"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "3",
+        "label": "5000-10000",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016cb"
+        }
+      },
+      {
+        "value": "4",
+        "label": "10000-15000",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016cc"
+        }
+      },
+      {
+        "value": "5",
+        "label": "15000-25000",
+        "_id": {
+          "$oid": "656df59881cd3f6258d016cd"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "656df59881cd3f6258d016c2"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656e17f7b7f8cbaae73b4b65"
+  },
+  "userId": "de356868-d15d-4b3c-bea3-c4b150ec1f60",
+  "location": "nj hjv hcitykbjnbnjbhvb",
+  "name": "AA",
+  "propertyOwner": {
+    "name": "b",
+    "email": "a@mailinator.com"
+  },
+  "caretaker": {
+    "name": "b",
+    "email": "b@mailinator.com",
+    "mobile": "8778878778",
+    "_id": {
+      "$oid": "656e17f7b7f8cbaae73b4b66"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "2",
+        "label": "1BHK",
+        "_id": {
+          "$oid": "656e17f7b7f8cbaae73b4b68"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "3",
+        "label": "Girls",
+        "_id": {
+          "$oid": "656e17f7b7f8cbaae73b4b69"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "656e17f7b7f8cbaae73b4b6a"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "2",
+        "label": "1000-5000",
+        "_id": {
+          "$oid": "656e17f7b7f8cbaae73b4b6b"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "656e17f7b7f8cbaae73b4b67"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f4fb727bf0c180240cfef"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Gurugram Pg",
+  "propertyOwner": {
+    "name": "A",
+    "email": "a@mailinator.co"
+  },
+  "caretaker": {
+    "name": "B",
+    "email": "b@mailinator.com",
+    "mobile": "78889887",
+    "_id": {
+      "$oid": "656f4fb727bf0c180240cff0"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f4fb727bf0c180240cff1"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f4fe127bf0c180240cff7"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Gurugram Pg",
+  "propertyOwner": {
+    "name": "A",
+    "email": "a@mailinator.co"
+  },
+  "caretaker": {
+    "name": "B",
+    "email": "b@mailinator.com",
+    "mobile": "78889887",
+    "_id": {
+      "$oid": "656f4fe127bf0c180240cff8"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f4fe127bf0c180240cff9"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f500327bf0c180240d01a"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "a",
+  "propertyOwner": {
+    "name": "n",
+    "email": "a@Mailinator.ocm"
+  },
+  "caretaker": {
+    "name": "car",
+    "email": "care@mailinator.com",
+    "mobile": "899889998",
+    "_id": {
+      "$oid": "656f500327bf0c180240d01b"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f500327bf0c180240d01c"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f503227bf0c180240d021"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "a",
+  "propertyOwner": {
+    "name": "n",
+    "email": "a@Mailinator.ocm"
+  },
+  "caretaker": {
+    "name": "car",
+    "email": "care@mailinator.com",
+    "mobile": "899889998",
+    "_id": {
+      "$oid": "656f503227bf0c180240d022"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f503227bf0c180240d023"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f505627bf0c180240d02b"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "a",
+  "propertyOwner": {
+    "name": "n",
+    "email": "a@Mailinator.ocm"
+  },
+  "caretaker": {
+    "name": "car",
+    "email": "care@mailinator.com",
+    "mobile": "899889998",
+    "_id": {
+      "$oid": "656f505627bf0c180240d02c"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f505627bf0c180240d02d"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656f508f27bf0c180240d051"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "rtcgvhjbknlm,./",
+  "propertyOwner": {
+    "name": "vuhbjk",
+    "email": "hbbjkj@mailinator.com"
+  },
+  "caretaker": {
+    "name": "Nitin",
+    "email": "amm@mailinator.com",
+    "mobile": "8998898998",
+    "_id": {
+      "$oid": "656f508f27bf0c180240d052"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "656f508f27bf0c180240d053"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570b1a2fcd25ee92c8c3aef"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Haridwar ",
+  "propertyOwner": {
+    "name": "hari prasad",
+    "email": "hariprsad@mailinator.com"
+  },
+  "caretaker": {
+    "name": "Hari Ram",
+    "email": "hariram@mailinator.com",
+    "mobile": "898989898",
+    "_id": {
+      "$oid": "6570b1a2fcd25ee92c8c3af0"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "3",
+        "label": "2BHK",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af2"
+        }
+      },
+      {
+        "value": "2",
+        "label": "1BHK",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af3"
+        }
+      },
+      {
+        "value": "4",
+        "label": "PG",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af4"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "3",
+        "label": "Girls",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af5"
+        }
+      },
+      {
+        "value": "2",
+        "label": "Boys",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af6"
+        }
+      },
+      {
+        "value": "4",
+        "label": "Co-Living",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af7"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af8"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Double Sharing",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3af9"
+        }
+      },
+      {
+        "value": "4",
+        "label": "3 Sharing",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3afa"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "2",
+        "label": "1000-5000",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3afb"
+        }
+      },
+      {
+        "value": "3",
+        "label": "5000-10000",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3afc"
+        }
+      },
+      {
+        "value": "4",
+        "label": "10000-15000",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3afd"
+        }
+      },
+      {
+        "value": "5",
+        "label": "15000-25000",
+        "_id": {
+          "$oid": "6570b1a2fcd25ee92c8c3afe"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "6570b1a2fcd25ee92c8c3af1"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570b22dfcd25ee92c8c3b6e"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "aaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": ""
+  },
+  "caretaker": {
+    "name": "AA",
+    "email": "hah",
+    "mobile": "565655656",
+    "_id": {
+      "$oid": "6570b22dfcd25ee92c8c3b6f"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570b22dfcd25ee92c8c3b70"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba27503da75d282a9e3b"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Kunalaaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": "aa"
+  },
+  "caretaker": {
+    "name": "aaa",
+    "email": "a",
+    "mobile": "7878878787",
+    "_id": {
+      "$oid": "6570ba27503da75d282a9e3c"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570ba27503da75d282a9e3d"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba2c503da75d282a9e40"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Kunalaaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": "aa"
+  },
+  "caretaker": {
+    "name": "aaa",
+    "email": "a",
+    "mobile": "7878878787",
+    "_id": {
+      "$oid": "6570ba2c503da75d282a9e41"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570ba2c503da75d282a9e42"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba39503da75d282a9e45"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Kunalaaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": "aa@mailinator.com"
+  },
+  "caretaker": {
+    "name": "aaa",
+    "email": "a@mailinator.com",
+    "mobile": "7878878787",
+    "_id": {
+      "$oid": "6570ba39503da75d282a9e46"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570ba39503da75d282a9e47"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba4f503da75d282a9e4a"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Kunalaaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": "aa@mailinator.com"
+  },
+  "caretaker": {
+    "name": "aaa",
+    "email": "a@mailinator.com",
+    "mobile": "7878878787",
+    "_id": {
+      "$oid": "6570ba4f503da75d282a9e4b"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570ba4f503da75d282a9e4c"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570ba7d9d132937a914a5d0"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "Kunalaaa",
+  "propertyOwner": {
+    "name": "aa",
+    "email": "aa@mailinator.com"
+  },
+  "caretaker": {
+    "name": "aaa",
+    "email": "a@mailinator.com",
+    "mobile": "7878878787",
+    "_id": {
+      "$oid": "6570ba7d9d132937a914a5d1"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6570ba7e9d132937a914a5d2"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657886066b959438545c1411"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "AMAN PG",
+  "propertyOwner": {
+    "name": "LALIT",
+    "email": "lalit@mailinator.ocm"
+  },
+  "caretaker": {
+    "name": "Care Taker",
+    "email": "caretaker@mailinator.ocm",
+    "mobile": "7887877878",
+    "_id": {
+      "$oid": "657886066b959438545c1412"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "657886066b959438545c1413"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658322d7116c712dfb2d37a5"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "BUG TRACKER",
+  "propertyOwner": {
+    "name": "BUGTRACKER OWNER",
+    "email": "bugtrackerowner@mailinator.com"
+  },
+  "caretaker": {
+    "name": "BUGTRACKER CARETAKER",
+    "email": "bugtrackercaretaker@mailinator.com",
+    "mobile": "8989988998",
+    "_id": {
+      "$oid": "658322d7116c712dfb2d37a6"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "2",
+        "label": "1BHK",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37a8"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "2",
+        "label": "Boys",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37a9"
+        }
+      },
+      {
+        "value": "4",
+        "label": "Co-Living",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37aa"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Girls",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37ab"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37ac"
+        }
+      },
+      {
+        "value": "4",
+        "label": "3 Sharing",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37ad"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "4",
+        "label": "10000-15000",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37ae"
+        }
+      },
+      {
+        "value": "5",
+        "label": "15000-25000",
+        "_id": {
+          "$oid": "658322d7116c712dfb2d37af"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "658322d7116c712dfb2d37a7"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6583277642508780e43a31b1"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "AAAAAAAAAAAAAAAA NNN",
+  "propertyOwner": {
+    "name": "AAAAAAAAAAAAAAAA NNN",
+    "email": "AAAAAAAAAA@mailinator.com"
+  },
+  "caretaker": {
+    "name": "BBBBBBBBBBBBBBBBBBBBBBB",
+    "email": "bbbbbbbbbbbb@mailinator.com",
+    "mobile": "8998989889",
+    "_id": {
+      "$oid": "6583277642508780e43a31b2"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "6583277642508780e43a31b3"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658328b0756105ffd2ba27af"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "zzzzzzazaza",
+  "propertyOwner": {
+    "name": "zzzzzzazaza",
+    "email": "zzzzzzazaza@mailinator.com"
+  },
+  "caretaker": {
+    "name": "zzzzzzazazaCARETAKER",
+    "email": "zzzzzzazazaCARETAKER@mailinator.com",
+    "mobile": "8778788778",
+    "_id": {
+      "$oid": "658328b0756105ffd2ba27b0"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "658328b0756105ffd2ba27b1"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65832c3cdfd2066a5f7bcd8f"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "XYXY",
+  "propertyOwner": {
+    "name": "XYXYXYXY",
+    "email": "XYXYXYXY@mailinator.com"
+  },
+  "caretaker": {
+    "name": "XYXYCARE",
+    "email": "XYXYCARE@mailinator.com",
+    "mobile": "56656565656",
+    "_id": {
+      "$oid": "65832c3cdfd2066a5f7bcd90"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "65832c3cdfd2066a5f7bcd91"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6592d6c8ed7421155282ca88"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "APROPERTY",
+  "propertyOwner": {
+    "name": "A",
+    "email": "a@mailinator.com"
+  },
+  "caretaker": {
+    "name": "B",
+    "email": "b@mailinator.com",
+    "mobile": "5678984589",
+    "_id": {
+      "$oid": "6592d6c8ed7421155282ca89"
+    }
+  },
+  "propertyType": {
+    "homeType": [
+      {
+        "value": "2",
+        "label": "1BHK",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca8b"
+        }
+      },
+      {
+        "value": "3",
+        "label": "2BHK",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca8c"
+        }
+      },
+      {
+        "value": "4",
+        "label": "PG",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca8d"
+        }
+      }
+    ],
+    "livinType": [
+      {
+        "value": "2",
+        "label": "Boys",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca8e"
+        }
+      },
+      {
+        "value": "4",
+        "label": "Co-Living",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca8f"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Girls",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca90"
+        }
+      }
+    ],
+    "shareType": [
+      {
+        "value": "2",
+        "label": "Single",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca91"
+        }
+      },
+      {
+        "value": "3",
+        "label": "Double Sharing",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca92"
+        }
+      }
+    ],
+    "priceType": [
+      {
+        "value": "3",
+        "label": "5000-10000",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca93"
+        }
+      },
+      {
+        "value": "4",
+        "label": "10000-15000",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca94"
+        }
+      },
+      {
+        "value": "5",
+        "label": "15000-25000",
+        "_id": {
+          "$oid": "6592d6c8ed7421155282ca95"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "6592d6c8ed7421155282ca8a"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c20daca3c6fa7dd301d2c"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "MY PG",
+  "propertyOwner": {
+    "name": "mypgowner",
+    "email": "mypgowner@mailinatorcom"
+  },
+  "caretaker": {
+    "name": "mypgcaretaker",
+    "email": "mypgcaretaker@mailinator.com",
+    "mobile": "7878787887",
+    "_id": {
+      "$oid": "659c20daca3c6fa7dd301d2d"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "659c20daca3c6fa7dd301d2e"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c210bca3c6fa7dd301d75"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "MY OG @",
+  "propertyOwner": {
+    "name": "mypgcaretaker@mailinator.ocm",
+    "email": "mypgcaretaker@mailinator.ocm"
+  },
+  "caretaker": {
+    "name": "mypgcaretaker@mailinator.ocm",
+    "email": "mypgcaretaker@mailinator.ocm",
+    "mobile": "8778787887",
+    "_id": {
+      "$oid": "659c210bca3c6fa7dd301d76"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "659c210bca3c6fa7dd301d77"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659c240eca3c6fa7dd301e26"
+  },
+  "userId": "60f1247f-9050-495b-a3b5-e7f2cda09096",
+  "name": "AA",
+  "propertyOwner": {
+    "name": "a",
+    "email": "ab@mailinator.com"
+  },
+  "caretaker": {
+    "name": "a",
+    "email": "aaa@mailinator.com",
+    "mobile": "87878787897",
+    "_id": {
+      "$oid": "659c240eca3c6fa7dd301e27"
+    }
+  },
+  "propertyType": {
+    "homeType": [],
+    "livinType": [],
+    "shareType": [],
+    "priceType": [],
+    "_id": {
+      "$oid": "659c240eca3c6fa7dd301e28"
+    }
+  },
+  "__v": 0
+}]
