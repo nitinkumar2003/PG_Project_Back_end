@@ -36,7 +36,7 @@ app.use('/address', address)
 app.use('/image', image)
 
 app.get('/', (req, res) => {
-    res.json(["Tony", "Lisa", "Michael", "Ginger", "Food"]);
+    res.json(["Tony","A", "Lisa", "Michael", "Ginger", "Food"]);
     console.log('server start ')
 })
 
