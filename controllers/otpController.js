@@ -6,7 +6,8 @@ const tryCatchMiddleWare = require('../middleware/tryCatchMiddleware');
 const sendOTPByEmail=require('../utilities/sentOtp')
 
 const create = async (req, res) => {
-    const { email } = req.body
+    const { email } = req.body;
+    console.log("email",email)
     if (!email)  return res.status(400).json({ status: 400, error: 'Please provide an email address.' });
     const user = await userRegister.findOne({ email })
     if (!user) return res.status(400).json({ status: 400, error: 'No account found with this email address.' });
