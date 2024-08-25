@@ -19,20 +19,35 @@ const corsOptions = {
     // Replace with your domain
     origin: 'http://localhost:5173/',
     methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
-  
+
     // Enable this if you need to
     // send cookies or HTTP authentication
     credentials: true,
     optionsSuccessStatus: 204
-  };
+};
 
 // app.use(cors(corsOptions))
 
 app.use(cors({
-    origin: 'http://localhost:5173',  // Specify your React app's URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Specify allowed methods
-    allowedHeaders: ['Content-Type', 'Authorization'] // Specify allowed headers
-  }));
+    origin: 'http://localhost:5173',  // Allow requests from Vite's development server
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true  // If using cookies or authentication
+}));
+
+app.options('*', cors({
+    origin: 'http://localhost:5173',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
+}));
+
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    next();
+});
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(fileupload({ useTempFiles: true }))
@@ -54,7 +69,7 @@ app.use('/address', address)
 app.use('/image', image)
 
 app.get('/', (req, res) => {
-    res.json(["Tony","A", "Lisa", "Michael", "Ginger", "Food"]);
+    res.json(["Tony", "A", "Lisa", "Michael", "Ginger", "Food"]);
     console.log('server start ')
 })
 
