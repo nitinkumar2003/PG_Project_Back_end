@@ -29,8 +29,10 @@ const corsOptions = {
 // app.use(cors(corsOptions))
 
 app.use(cors({
-  origin: 'http://localhost:5173'
-}));
+    origin: 'http://localhost:5173',  // Specify your React app's URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Specify allowed methods
+    allowedHeaders: ['Content-Type', 'Authorization'] // Specify allowed headers
+  }));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(fileupload({ useTempFiles: true }))
