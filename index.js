@@ -26,7 +26,11 @@ const corsOptions = {
     optionsSuccessStatus: 204
   };
 
-app.use(cors(corsOptions))
+// app.use(cors(corsOptions))
+
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(fileupload({ useTempFiles: true }))
