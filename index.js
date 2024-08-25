@@ -15,32 +15,17 @@ const image = require('./routes/imageRoute')
 const errorHandler = require('./middleware/errorHandling');
 
 
-const corsOptions = {
-    // Replace with your domain
-    origin: 'http://localhost:5173/',
-    methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
-
-    // Enable this if you need to
-    // send cookies or HTTP authentication
-    credentials: true,
-    optionsSuccessStatus: 204
-};
-
 // app.use(cors(corsOptions))
 
-app.use(cors({
-    origin: 'http://localhost:5173',  // Allow requests from Vite's development server
+const corsOptions = {
+    origin: 'http://localhost:5173', // Your React frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true  // If using cookies or authentication
-}));
-
-app.options('*', cors({
-    origin: 'http://localhost:5173',
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true
-}));
+    credentials: true, // Allow credentials if needed
+    optionsSuccessStatus: 200 // Some legacy browsers choke on 204
+  };
+app.use(cors(corsOptions));  
+app.options('*', cors(corsOptions));
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
@@ -73,6 +58,9 @@ app.get('/', (req, res) => {
     console.log('server start ')
 })
 
+app.get('/test', (req, res) => {
+    res.json({ message: "CORS is working!" });
+  });
 
 const port = process.env.DB_PORT || 4001
 var server = app.listen(port, "::", function () {
