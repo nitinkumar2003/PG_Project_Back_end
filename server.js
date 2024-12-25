@@ -20,6 +20,7 @@ app.use(bodyParser.json());
 app.use(fileupload({useTempFiles: true}))
 // app.use(errorHandler)
 
+app.options('*', cors());  // Preflight request
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
