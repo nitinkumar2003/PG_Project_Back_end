@@ -4,6 +4,9 @@ let dbName = process.env.DB_NAME
 
 const mongoconnectshell = "mongodb+srv://nitinkumarja2003:nlwNr6pAoAeslyB7@test-pg-db.k11i3xm.mongodb.net/?retryWrites=true&w=majority"
 
+
+// const uri = "mongodb+srv://nitinkumarja2003:nlwNr6pAoAeslyB7@<cluster-name>.mongodb.net/<dbname>?retryWrites=true&w=majority";
+
 // mongoose.connect(mongoUrl + dbName, {
 mongoose.connect(mongoconnectshell + dbName, {
     useNewUrlParser: true,
